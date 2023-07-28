@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buoyancy Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Buoyancy Calculator</h1>
+    <div class="calculator">
+        <label for="objectVolume">Object Volume (m³):</label>
+        <input type="number" id="objectVolume" step="0.01">
+
+        <label for="fluidDensity">Fluid Density (kg/m³):</label>
+        <input type="number" id="fluidDensity" step="0.01">
+
+        <button onclick="calculateBuoyancy()">Calculate Buoyancy</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
